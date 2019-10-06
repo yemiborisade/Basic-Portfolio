@@ -1,0 +1,53 @@
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  /* Bottom text */
+  .bottom {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    background-color: lightblue
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: lightblue
+  }
+
+  h1 {
+    background-color: lightblue;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    bottom: 50;
+  }
+  
