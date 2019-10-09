@@ -1,36 +1,94 @@
 /* Container holding the image and the text */
+.nav-bar {
+  position: absolute;
+  top: 0;
+  margin-left: 0%;
+  padding: 0%;
+  Height: 80px;
+  width: 100%;
+  color: gray;
+  background-color: white;
+  overflow: hidden;
+  border-bottom: 2px solid #dddddd;
+  z-index: 3;
+ }
+
+ .heading_name {
+  background-color: #4aaaa5;
+  color: white;
+  text-align: left;
+  margin-left: 0%;
+  height: -27%;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 0%;
+ }
+
+ .ulnav {
+  list-style-type: none;
+  margin-top: -27px;
+  margin-right: 0%;
+  padding: 0;
+  overflow: hidden;
+  text-align: right;
+  display: inline;
+ }
+
 .container {
-    position: relative;
-    text-align: center;
-    color: black;
-  }
+  width: 960px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin: 50px auto 0 auto;
+  background-color: white;
+  padding: 3%;
+  border: 2px solid #dddddd;
+  overflow: hidden;
+  position: relative;
+ }
+
+ .content-topper {
+  margin: 0px 0px 0px 0px;
+  height: 40px;
+  padding: 0px 0px 20px 0px;
+  width: 960px;
+  border-bottom: 2px solid #dddddd;
+ }
+
+ body {
+  background-color: #dddddd
+ }
+
+ a {
+   float: left;
+   margin: right 200px;
+ }
   
   /* Bottom left text */
   .bottom-left {
     position: absolute;
-    bottom: 8px;
-    left: 16px;
+    bottom: 200px;
+    left: 200px;
   }
   
   /* Top left text */
   .top-left {
     position: absolute;
-    top: 8px;
-    left: 16px;
+    top: 200px;
+    left: 200px;
   }
   
   /* Top right text */
   .top-right {
     position: absolute;
-    top: 8px;
-    right: 16px;
+    top: 200px;
+    right: 200px;
   }
   
   /* Bottom text */
   .bottom {
     position: absolute;
-    bottom: 8px;
-    right: 16px;
+    bottom: 200px;
+    right: 200px;
     background-color: lightblue
   }
   
@@ -50,4 +108,31 @@
     right: 50%;
     bottom: 50;
   }
-  
+
+  p.outset {border-style: outset;}
+
+  /* The navbar container */
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  footer {
+    left: 0;
+    background-color: rgb(128, green, blue);
+    border-top: 5px;
+    color: lightblue; 
+    text-align: center;
+    padding: 0;
+    line-height: 50px;
+    width: 100%;
+    margin-bottom: 0%;
+    position: absolute; 
+  }
+
+  .header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+  }
