@@ -4,8 +4,11 @@ body {
 }
 
 header {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: white;
+  width: 100%;
+  float: left
 }
 
 /* Container holding the image and the text */
@@ -27,40 +30,39 @@ header {
   background-color: #4aaaa5;
   background-position: 100%;
   color: white;
-  text-align: left;
-  margin-left: 0%;
+  text-align: center;
+  margin-left: 22%;
   height: 80px;
   font-size: 2em;
   font-weight: bold;
-  padding: 0px;
+  padding: 57px;
  }
 
- .ulnav {
-  list-style-type: none;
-  margin-top: 0px;
-  margin-left: 0px;
-  padding: 0px;
-  overflow: hidden;
-  text-align: right;
-  display: inline;
+ .links {
+  margin-left: 20px;
+  margin-top: -15px;
+  margin-bottom: 17px;
   float: right;
  }
 
 .container {
   clear: both;
-  width: 960px;
+  width: 600px;
   margin-left: 10%;
   margin-right: 10%;
-  margin: 50px auto 0 auto;
+  margin-top: 10;
+  margin-bottom: 10%;
+  margin: 50px auto 50px auto;
   background-color: white;
   padding: 3%;
-  border: 2px solid #dddddd;
+  border: 50px solid #dddddd;
   overflow: hidden; 
   position: relative;
  }
 
 h2 {
-   color: #4aaaa5
+   color: #4aaaa5;
+   border-bottom: 2px solid black; 
  }
 
  .content-topper {
@@ -139,12 +141,12 @@ h2 {
 
   footer {
     left: 0;
-    background-color: rgb(128, green, blue);
-    border-top: 5px;
-    color: lightblue; 
+    background-color: #666666;
+    border-top: 35px #4aaaa5;
+    color: white; 
     text-align: center;
     padding: 0;
-    line-height: 50px;
+    line-height: 25px;
     width: 100%;
     margin-bottom: 0%;
     position: absolute; 
