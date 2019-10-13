@@ -31,7 +31,7 @@ header {
   background-position: 100%;
   color: white;
   text-align: center;
-  margin-left: 16%;
+  margin-left: 14%;
   height: 80px;
   font-size: 2em;
   font-weight: bold;
@@ -148,7 +148,7 @@ h2 {
   footer {
     left: 0;
     background-color: #666666;
-    border-top: 35px #4aaaa5;
+    border-top: 90px #4aaaa5;
     color: white; 
     text-align: center;
     padding: 0;
@@ -187,19 +187,8 @@ h2 {
     height: 33px;
   }
 
-  .Hangman {
-
-  .RPGGames {
- 
-
-  .TriviaGame {
-  }
-
-  .RockPaperScissors {
-
-  .RutgersWidgetInfo {
+  .htextblock 
   
-
   .row {
     margin: 8px -16px;
   }
